@@ -1,0 +1,24 @@
+.jumbotron {
+    background-image: url("dist/images/Mochi\ background.png");
+    background-repeat: no-repeat,
+    background-color;white
+}
+.btn-primary {
+    color: #fff;
+    background-color:red;
+    border-color:black;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+background:
+   /* top, transparent red, faked with gradient */
+   linear-gradient(
+     rgba(255, 0, 0, 0.45),
+     rgba(255, 0, 0, 0.45)
+   ),
+   /* bottom, image */
+   url(image.jpg);
